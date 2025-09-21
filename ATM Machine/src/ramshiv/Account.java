@@ -2,9 +2,8 @@ package ramshiv;
 
 import java.text.DecimalFormat;
 
-/**
- * Account: holds customer/pin and balances and performs calculations.
- */
+ //Account: holds customer/pin and balances and performs calculations.
+
 public class Account {
     private int customerNumber;
     private int pinNumber;
@@ -63,3 +62,4 @@ public class Account {
         return this.savingBalance;
     }
 }
+
