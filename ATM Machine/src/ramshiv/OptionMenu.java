@@ -4,9 +4,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
-/**
- * OptionMenu: handles login and user menus. Extends Account to use balances and calculations.
- */
+//OptionMenu: handles login and user menus. Extends Account to use balances and calculations.
+
 public class OptionMenu extends Account {
     private Scanner menuInput = new Scanner(System.in);
     private HashMap<Integer, Integer> data = new HashMap<>();
@@ -241,3 +240,4 @@ public class OptionMenu extends Account {
         }
     }
 }
+
